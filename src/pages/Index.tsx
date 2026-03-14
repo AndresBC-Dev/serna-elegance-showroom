@@ -5,6 +5,8 @@ const shirtWhite = "/photos/w-tshirt.jpeg";
 const shirtNavy = "/photos/black.jpeg";
 const shirtCharcoal = "/photos/b-tshirt02.jpeg";
 const shirtBurgundy = "/photos/model.jpeg";
+const shirtOwner = "/photos/owner.jpeg";
+const shirtCoowner = "/photos/coowner.jpeg";
 
 const products = [
   { image: shirtBurgundy, name: "Noir Slim fit", price: "159.900", tag: "Insignia" },
@@ -147,10 +149,10 @@ const Index = () => {
             </div>
             <div className="grid grid-cols-2 gap-4">
               <div className="aspect-[3/4] overflow-hidden">
-                <img src={shirtNavy} alt="Detalle camisa SERNA azul noche" className="w-full h-full object-cover" loading="lazy" />
+                <img src={shirtOwner} alt="Owner - Camisa del equipo SERNA" className="w-full h-full object-cover" loading="lazy" />
               </div>
               <div className="aspect-[3/4] overflow-hidden mt-12">
-                <img src={shirtBurgundy} alt="Detalle camisa SERNA borgoña" className="w-full h-full object-cover" loading="lazy" />
+                <img src={shirtCoowner} alt="Co-owner - Camisa del equipo SERNA" className="w-full h-full object-cover" loading="lazy" />
               </div>
             </div>
           </div>
