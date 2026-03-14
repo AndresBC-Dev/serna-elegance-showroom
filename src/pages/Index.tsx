@@ -12,7 +12,7 @@ const shirtPoloMariela = "/photos/poloMariela.jpeg";
 const products = [
   { image: shirtBurgundy, name: "Noir Slim fit", price: "159.900", tag: "Insignia" },
   { image: shirtNavy, name: "Noble nocturn Slim fit", price: "159.900" },
-  { image: shirtPoloMariela, name: "Mariela Éminence", price: "159.900" },
+  { image: shirtPoloMariela, name: "Mariela Sign", price: "159.900" },
   { image: shirtBlackHero, name: "Noir T-Shirt", price: "89.900" },
   { image: shirtWhite, name: "Blanc Pur T-Shirt", price: "89.900" },
   { image: shirtCharcoal, name: "Ébène Signature T-Shirt", price: "89.900" },
