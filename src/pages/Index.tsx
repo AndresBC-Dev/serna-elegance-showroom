@@ -1,18 +1,17 @@
-import shirtBlackHero from "@/assets/shirt-black-hero.jpg";
-import shirtWhite from "@/assets/shirt-white.jpg";
-import shirtNavy from "@/assets/shirt-navy.jpg";
-import shirtCharcoal from "@/assets/shirt-charcoal.jpg";
-import shirtBurgundy from "@/assets/shirt-burgundy.jpg";
-import shirtOlive from "@/assets/shirt-olive.jpg";
 import ProductCard from "@/components/ProductCard";
 
+const shirtBlackHero = "/photos/tshirt.jpeg";
+const shirtWhite = "/photos/w-tshirt.jpeg";
+const shirtNavy = "/photos/black.jpeg";
+const shirtCharcoal = "/photos/b-tshirt02.jpeg";
+const shirtBurgundy = "/photos/model.jpeg";
+
 const products = [
-  { image: shirtBlackHero, name: "Noir Slim Fit", price: "€129", tag: "Insignia" },
-  { image: shirtWhite, name: "Blanc Classique", price: "€109" },
-  { image: shirtNavy, name: "Azul Noche", price: "€119" },
-  { image: shirtCharcoal, name: "Gris Carbón", price: "€119" },
-  { image: shirtBurgundy, name: "Borgoña", price: "€119" },
-  { image: shirtOlive, name: "Verde Oliva", price: "€109" },
+  { image: shirtBurgundy, name: "Noir Slim fit", price: "159.900", tag: "Insignia" },
+  { image: shirtNavy, name: "Noble nocturn Slim fit", price: "159.900" },
+  { image: shirtBlackHero, name: "Noir T-Shirt", price: "89.900" },
+  { image: shirtWhite, name: "Blanc Pur T-Shirt", price: "89.900" },
+  { image: shirtCharcoal, name: "Ébène Signature T-Shirt", price: "89.900" },
 ];
 
 const Index = () => {
@@ -71,14 +70,14 @@ const Index = () => {
             <div className="aspect-[3/4] overflow-hidden">
               <img
                 src={shirtBlackHero}
-                alt="Camisa negra insignia SERNA - Slim fit manga larga"
+                alt="Camisa básica negra SERNA - Corte clásico"
                 className="w-full h-full object-cover"
               />
             </div>
             <div className="absolute -bottom-6 -left-6 md:-left-12 bg-secondary px-6 py-4">
-              <p className="font-display text-lg text-foreground italic">Noir Slim Fit</p>
+              <p className="font-display text-lg text-foreground italic">Noir Essential</p>
               <p className="font-body text-xs text-muted-foreground tracking-[0.2em] uppercase mt-1">
-                Pieza insignia
+                Básico refinado
               </p>
             </div>
           </div>
@@ -185,8 +184,8 @@ const Index = () => {
                 Contacto
               </h4>
               <div className="flex flex-col gap-2">
-                <span className="font-body text-sm text-muted-foreground">info@serna.com</span>
-                <span className="font-body text-sm text-muted-foreground">@serna.official</span>
+                <span className="font-body text-sm text-muted-foreground">sernacollection07@gmail.com</span>
+                <span className="font-body text-sm text-muted-foreground">@sernacollection1</span>
               </div>
             </div>
           </div>

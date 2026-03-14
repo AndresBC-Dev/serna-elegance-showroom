@@ -1,22 +1,32 @@
-# Welcome to your Lovable project
+# Serna Elegance Showroom
 
-## Project info
+Proyecto de frontend en React + TypeScript + Vite para tienda de camisas premium.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+## Setup
 
-## How can I edit this code?
+```bash
+git clone <repo-url>
+cd serna-elegance-showroom
+npm install
+npm run dev
+```
 
-There are several ways of editing your application.
+## Scripts
 
-**Use Lovable**
+- `npm run dev` - iniciar servidor de desarrollo
+- `npm run build` - generar build de producción
+- `npm run preview` - previsualizar build
+- `npm run test` - ejecutar Vitest
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+## Estructura principal
 
-Changes made via Lovable will be committed automatically to this repo.
+- `src/` - código fuente
+- `public/` - archivos estáticos (`serna.png`, `photos/`)
+- `src/pages/Index.tsx` - landing principal
 
-**Use your preferred IDE**
+## Prueba local y despliegue
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- `npm run build` y subir carpeta `dist`
 
 The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
@@ -60,14 +70,12 @@ This project is built with:
 - shadcn-ui
 - Tailwind CSS
 
-## How can I deploy this project?
+## Cómo desplegar
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+- Ejecuta `npm run build`
+- Sube la carpeta `dist` a tu hosting preferido
 
-## Can I connect a custom domain to my Lovable project?
+## Dominio personalizado
 
-Yes, you can!
+- Configura el dominio en tu proveedor de hosting y apunta al build
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
