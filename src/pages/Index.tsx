@@ -1,21 +1,21 @@
 import ProductCard from "@/components/ProductCard";
 
-const shirtBlackHero = "/photos/tshirt.jpeg";
-const shirtWhite = "/photos/w-tshirt.jpeg";
-const shirtNavy = "/photos/black.jpeg";
-const shirtCharcoal = "/photos/b-tshirt02.jpeg";
-const shirtBurgundy = "/photos/model.jpeg";
+const imgNoirEssential = "/photos/Noir Essential.jpeg";
+const imgChemiseNoir = "/photos/CHEMISE NOIR SLIM FIT.jpeg";
+const imgPantalonClassique = "/photos/PANTALÓN CLASSIQUE SLIM FIT.jpeg";
+const imgCostumeNoir = "/photos/Costume noir slim fit.jpeg";
+const imgTshirtBasique = "/photos/T-shirt basique slim fit.jpeg";
 const shirtOwner = "/photos/owner.jpeg";
 const shirtCoowner = "/photos/coowner.jpeg";
 const shirtPoloMariela = "/photos/poloMariela.jpeg";
 
 const products = [
-  { image: shirtBurgundy, name: "Noir Slim fit", price: "159.900", tag: "Insignia" },
-  { image: shirtNavy, name: "Noble nocturn Slim fit", price: "159.900" },
+  { image: imgChemiseNoir, name: "Chemise Noir Slim Fit", price: "179.900", tag: "Insignia" },
+  { image: imgPantalonClassique, name: "Pantalón Classique Slim Fit", price: "189.900" },
   { image: shirtPoloMariela, name: "Mariela Signature", price: "159.900" },
-  { image: shirtBlackHero, name: "Noir T-Shirt", price: "89.900" },
-  { image: shirtWhite, name: "Blanc Pur T-Shirt", price: "89.900" },
-  { image: shirtCharcoal, name: "Ébène Signature T-Shirt", price: "89.900" },
+  { image: imgNoirEssential, name: "T-shirt Noir Essential", price: "109.900" },
+  { image: imgCostumeNoir, name: "Costume Noir Slim Fit", price: "649.900" },
+  { image: imgTshirtBasique, name: "T-shirt Basique Slim Fit", price: "99.900" },
 ];
 
 const Index = () => {
@@ -73,7 +73,7 @@ const Index = () => {
           <div className="relative order-1 md:order-2">
             <div className="aspect-[3/4] overflow-hidden">
               <img
-                src={shirtBlackHero}
+                src={imgNoirEssential}
                 alt="Camisa básica negra SERNA - Corte clásico"
                 className="w-full h-full object-cover"
               />
