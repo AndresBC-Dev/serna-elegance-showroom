@@ -7,13 +7,14 @@ const imgCostumeNoir = "/photos/Costume noir slim fit.jpeg";
 const imgTshirtBasique = "/photos/T-shirt basique slim fit.jpeg";
 const imgCaja = "/photos/caja.jpeg";
 const imgCaleb = "/photos/caleb.jpeg";
+const imgTshirtNoir = "/photos/tshirt.jpeg";
 const shirtPoloMariela = "/photos/poloMariela.jpeg";
 
 const products = [
   { image: imgChemiseNoir, name: "Chemise Noir Slim Fit", price: "179.900", tag: "Insignia" },
   { image: imgPantalonClassique, name: "Pantalón Classique Slim Fit", price: "189.900" },
   { image: shirtPoloMariela, name: "Mariela Signature", price: "159.900" },
-  { image: imgNoirEssential, name: "T-shirt Noir Essential", price: "109.900" },
+  { image: imgTshirtNoir, name: "T-shirt Noir Essential", price: "109.900" },
   { image: imgCostumeNoir, name: "Costume Noir Slim Fit", price: "649.900" },
   { image: imgTshirtBasique, name: "T-shirt Basique Slim Fit", price: "99.900" },
 ];
